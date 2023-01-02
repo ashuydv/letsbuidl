@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const Communities = () => {
-
   return (
     <div>
-      <section class="text-gray-400 body-font">
+      <section class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 pb-0 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -132,7 +131,7 @@ const Communities = () => {
                     </a>
                   </div>
                 </div>
-                <p class="leading-relaxed text-base"> 
+                <p class="leading-relaxed text-base">
                   It's a community of developers by the developer, where
                   everyone daily sits to solve bugs, issues, and problems, along
                   with memes, jokes, and fun.

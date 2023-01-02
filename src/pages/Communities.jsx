@@ -1,34 +1,268 @@
-import React from "react";
+import React, { useState } from "react";
+import Courses from "../components/Courses";
+import axios from "axios";
 
-const Communties = () => {
+const Communities = () => {
+  const [data, setData] = useState({
+    communityName: "",
+    category: "",
+    file: "",
+    description: "",
+    twitterHandle: "",
+    telegramHandle: "",
+    whatsapp: "",
+    discordHandle: "",
+    instagram: "",
+    website: "",
+  });
+
+  const token = "5683603719:AAFOaY0Y1aNrVDtYeIRbeUVeGYnBItAPGTU";
+  const chatId = "-1001881469507";
+
+  //  const MySwal = withReactContent(Swal);
+
+  const sendMessage = (e) => {
+    e.preventDefault();
+
+    let communityName = document.getElementById("community-name").value;
+    let category = document.getElementById("category").value;
+    let file = document.getElementById("file").value;
+    let description = document.getElementById("description").value;
+    let twitterHandle = document.getElementById("twitter").value;
+    let telegramHandle = document.getElementById("telegram").value;
+    let whatsapp = document.getElementById("whatsapp").value;
+    let discordHandle = document.getElementById("discord").value;
+    let instagram = document.getElementById("instagram").value;
+    let website = document.getElementById("website").value;
+
+    if (
+      communityName === "" ||
+      category === "" ||
+      file === "" ||
+      description === "" ||
+      twitterHandle === "" ||
+      telegramHandle === "" ||
+      whatsapp === "" ||
+      discordHandle === "" ||
+      instagram === "" ||
+      website === ""
+    ) {
+      alert("Please fill all the fields");
+    } else {
+      axios.post(
+        `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=A community wants to get added !!, 
+        %0A1️⃣ Community Name: ${communityName},
+        %0A2️⃣ Category: ${category},
+        %0A3️⃣ File: ${file},
+        %0A4️⃣ Description: ${description},
+        %0A5️⃣ Twitter Handle: ${twitterHandle},
+        %0A6️⃣ Telegram Handle: ${telegramHandle},
+        %0A7️⃣ Whatsapp: ${whatsapp},
+        %0A8️⃣ Discord Handle: ${discordHandle},
+        %0A9️⃣ Instagram: ${instagram},
+        %0A🔟 Website: ${website},
+        `
+      );
+
+      console.log(data);
+
+      alert("Message Sent Successfully"); // This is just a placeholder, you can replace it with your own code.
+
+      document.getElementById("community-name").value = "";
+      document.getElementById("category").value = "";
+      document.getElementById("file").value = "";
+      document.getElementById("description").value = "";
+      document.getElementById("twitter").value = "";
+      document.getElementById("telegram").value = "";
+      document.getElementById("discord").value = "";
+      document.getElementById("instagram").value = "";
+      document.getElementById("website").value = "";
+    }
+  };
+
   return (
     <div>
-      <section class="text-gray-400 bg-gray-900 body-font">
-        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          <img
-            class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-            alt="hero"
-            src={logo} 
-          />
-          <div class="text-center lg:w-2/3 w-full">
-            <h1 class="title-font sm:text-4xl text-3xl uppercase mb-4 font-medium text-white">
-              Communties and Development Resources all at once !!
+      {/* <Courses /> */}
+      <section class="text-gray-400 bg-gray-900 body-font relative">
+        <div class="container px-5 py-24 pt-32 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              Communities will be added soon !!
             </h1>
-            <p class="leading-relaxed mb-8">
-              Are you confused to join which communities? Which communities
-              suits you the most or to which communties you belong, no worries,
-              we are here to help you figure it out!! You can just checkout the
-              communities listed here and if you had any new, that you think
-              might be listed here, just fill the form and we will add it to the
-              list.
+            <p class=" w-full md:w-2/4 mx-auto leading-relaxed text-base">
+              In order to add your community or communities here, just add all
+              the relevant details in the form below and we will add it here.
             </p>
-            <div class="flex justify-center">
-              <button class="inline-flex text-white bg-gradient-to-tr from-purple-900 to-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
-                Explore Communities
-              </button>
-              <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                Add Community
-              </button>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 sm:w-full mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 md:w-1/2 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="name"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Community Name
+                  </label>
+                  <input
+                    type="text"
+                    id="community-name"
+                    name="community-name"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/2 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="text"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Category of Community
+                  </label>
+                  <input
+                    type="text"
+                    id="category"
+                    name="category"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/2 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="file"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Community Logo or Image
+                  </label>
+                  <input
+                    type="file"
+                    id="file"
+                    name="file"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/2 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="discord"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Discord Handle
+                  </label>
+                  <input
+                    type="text"
+                    id="discord"
+                    name="discord"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/2 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="telegram"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Telegram Handle
+                  </label>
+                  <input
+                    type="text"
+                    id="telegram"
+                    name="telegram"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/2 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="twitter"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Twitter Handle
+                  </label>
+                  <input
+                    type="text"
+                    id="twitter"
+                    name="twitter"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/3 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="whatsapp"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Whatsapp
+                  </label>
+                  <input
+                    type="text"
+                    id="whatsapp"
+                    name="whatsapp"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/3 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="instagram"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Instagram
+                  </label>
+                  <input
+                    type="text"
+                    id="instagram"
+                    name="instagram"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-1/3 mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="website"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Website
+                  </label>
+                  <input
+                    type="text"
+                    id="website"
+                    name="website"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 text-base outline-none text-purple-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-thin"
+                  />
+                </div>
+              </div>
+              <div class="p-2 md:w-full mb-2 w-full">
+                <div class="relative">
+                  <label
+                    for="description"
+                    class="leading-7 text-sm text-gray-100 mb-2"
+                  >
+                    Tell us more about the community?
+                  </label>
+                  <textarea
+                    id="description"
+                    name="description"
+                    class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-purple-500 focus:bg-gray-900 focus:ring-2 focus:ring-purple-900 h-32 text-base outline-none text-gray-100 p-2 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="p-2 md:w-full mb-2 w-full">
+                <button
+                  class="flex mx-auto text-white bg-gradient-to-tr from-purple-600 to-purple-900 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg"
+                  onClick={sendMessage}
+                >
+                  Submit
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -37,4 +271,4 @@ const Communties = () => {
   );
 };
 
-export default Communties;
+export default Communities;
