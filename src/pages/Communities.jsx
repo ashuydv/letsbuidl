@@ -16,8 +16,9 @@ const Communities = () => {
     website: "",
   });
 
-  const token = "5683603719:AAFOaY0Y1aNrVDtYeIRbeUVeGYnBItAPGTU";
-  const chatId = "-1001881469507";
+  const token = JSON.stringify(import.meta.env.VITE_TELEGRAM_TOKEN);
+  // console.log(JSON.stringify(import.meta.env.VITE_TELEGRAM_TOKEN));
+  const chatId = JSON.stringify(import.meta.env.VITE_TELEGRAM_CHAT_ID);
 
   //  const MySwal = withReactContent(Swal);
 
