@@ -1,9 +1,27 @@
-import React from "react";
+import React,{useState, useEffect} from "react";
+import { db } from "../firebase";
+import { collection,getDocs } from "firebase/firestore";
 
 function Items({ menuItem }) {
   const exploreCommunity = () => {
     window.location.href = "/add-community";
   };
+
+  const communityListRef = collection(db, "communityList");
+  const [communityList, setcommunityList] = useState([])
+
+  useEffect(() => {
+    const getdata = async () => {
+      const data = await getDocs(communityListRef);
+      try {
+        setcommunityList(data);
+        console.log(communityList.docs);
+      } catch (err) {
+        console.log(err)
+      }
+    };
+    getdata();
+  }, []);
 
   return (
     <div>
@@ -30,7 +48,7 @@ function Items({ menuItem }) {
                         {item.category}
                       </h3>
                       <h2 class="text-lg text-white font-medium title-font">
-                        {item.title.slice(0, 20)}
+                        {item.title.slice(0, 40)}
                       </h2>
                     </div>
                     <div className="flex items-center justify-start pb-2">
