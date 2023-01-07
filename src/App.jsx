@@ -7,22 +7,22 @@ import Footer from "./components/Footer";
 import Resources from "./pages/Resources";
 import Blogs from "./pages/Blogs";
 import Communities from "./pages/Communities";
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
 import Courses from "./components/Courses";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyC8DvNUl6nUU5lVhWupqsPOAsR4LnyK48o",
-  authDomain: "commbuidl-3ccf5.firebaseapp.com",
-  projectId: "commbuidl-3ccf5",
-  storageBucket: "commbuidl-3ccf5.appspot.com",
-  messagingSenderId: "584066631162",
-  appId: "1:584066631162:web:b87b9c19330d488d269043",
-  measurementId: "G-22VJCCDELC",
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyC8DvNUl6nUU5lVhWupqsPOAsR4LnyK48o",
+//   authDomain: "commbuidl-3ccf5.firebaseapp.com",
+//   projectId: "commbuidl-3ccf5",
+//   storageBucket: "commbuidl-3ccf5.appspot.com",
+//   messagingSenderId: "584066631162",
+//   appId: "1:584066631162:web:b87b9c19330d488d269043",
+//   measurementId: "G-22VJCCDELC",
+// };
 
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
 
 const App = () => {
   return (

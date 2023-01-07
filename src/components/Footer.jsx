@@ -19,12 +19,22 @@ const Footer = () => {
             <span>
               © 2022 letsbuidl.tech —
               <a
-                href="https://twitter.com/ashu_ydv18"
-                className="text-gray-500 text-sm ml-1"
+                href="https://ashuydv.in/"
+                className="text-gray-500 text-sm ml-1 mr-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span>@ashu_ydv18</span>
+              </a>
+              <span>,</span>
+
+              <a
+                href="https://pratik733.github.io/Portfolio-Website/"
+                className="text-gray-500 text-sm ml-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>@pratik733</span>
               </a>
             </span>
           </p>
