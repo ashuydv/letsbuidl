@@ -197,7 +197,7 @@ export default [
   {
     id: 18,
     image:
-      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/18.png?alt=media&token=2f1f3b1f-3f2f-4b1f-9b1f-1f1f1f1f1f1f",
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/18.png?alt=media&token=ec58d07f-a237-435e-852f-a0501618ff2a",
     title: "HyFi Blockchain",
     category: "Tech",
     description:
@@ -208,7 +208,7 @@ export default [
   },
   {
     id: 19,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/19.png?alt=media&token=b65838f0-0b86-45bf-b045-6290519a714e",
     title: "Blockchain Magazine",
     category: "Tech",
     description:
@@ -218,7 +218,7 @@ export default [
   },
   {
     id: 20,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/20.jpg?alt=media&token=b49f59b5-8113-4228-b19d-dd11174c8c1e",
     title: "Foundership - Web3 Startup Launcher 🚀 ",
     category: "Business",
     description:
@@ -228,7 +228,7 @@ export default [
   },
   {
     id: 21,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/21.png?alt=media&token=dcbf2693-fa6a-471e-9971-af99934b440e",
     title: "OpenAI",
     category: "Tech",
     description:
@@ -238,7 +238,7 @@ export default [
   },
   {
     id: 22,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/22.png?alt=media&token=7c324499-062d-4589-aabd-60ea60754af6",
     title: "CodeNewbie",
     category: "Tech",
     description:
@@ -246,20 +246,11 @@ export default [
     website: "https://www.codenewbie.org/",
     twitter: "https://twitter.com/CodeNewbies",
   },
-  {
-    id: 23,
-    image: "",
-    title: "Indian Developers",
-    category: "Tech",
-    description:
-      "A community for software developers in India to connect and share knowledge.",
-    website: "https://www.indiandevelopers.com/",
-    twitter: "https://twitter.com/indiandeveloper",
-  },
+  
 
   {
     id: 24,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/24.jfif?alt=media&token=7260f6a4-e457-45d4-bcb6-c3b2408495b1",
     title: "Women Who Code Delhi",
     category: "Tech",
     description:
@@ -270,7 +261,7 @@ export default [
 
   {
     id: 25,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/25.jpeg?alt=media&token=1a9e5eb4-a6e2-4aa8-84fa-c2acfc441d5f",
     title: "PyDelhi",
     category: "Tech",
     description: "A community for Python developers in Delhi.",
@@ -280,7 +271,7 @@ export default [
 
   {
     id: 26,
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/26.jpg?alt=media&token=c0235061-f7f4-4bf3-a707-77068bff1a06",
     title: "Google Developer Group (GDG) India",
     category: "Tech",
     description: "A community for Google developers in India.",
@@ -289,81 +280,165 @@ export default [
   },
 
   {
-    id: 27,
-    image: "",
-    title: "AI India",
-    category: "Tech",
+    id: 29,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/29.png?alt=media&token=fa405d92-cc26-4115-9821-27d94182c5e1",
+    title: "Indian Business Association (IBA)",
+    category: "Business",
     description:
-      "A community for artificial intelligence professionals in India.",
-    website: "https://ai.india.gov.in/",
-    twitter: "https://twitter.com/AI_India_",
+      "A network of Indian business professionals and entrepreneurs in the United States.",
+    website: "https://www.ibanet.org/",
+    twitter: "https://twitter.com/IBAUSA",
+  },
+
+  {
+    id: 30,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/30.jpg?alt=media&token=22591b03-93fe-44bb-a58b-56723b466bf9",
+    title: "Indus Entrepreneurs (TiE)",
+    category: "Business",
+    description:
+      "A global non-profit network of entrepreneurs and professionals that promotes entrepreneurship.",
+    website: "https://www.tie.org/",
+    twitter: "https://twitter.com/tiecon",
+  },
+
+
+  {
+    id: 32,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/32.jpg?alt=media&token=7dd087ce-5676-484a-bb6c-0ea70b762a9a",
+    title: "The Indus Entrepreneurs (TiE) Mumbai",
+    category: "Business",
+    description:
+      "A chapter of TiE in Mumbai, focused on promoting entrepreneurship in the region.",
+    website: "https://mumbai.tie.org/",
+    twitter: "https://twitter.com/tieconmumbai",
+  },
+
+  {
+    id: 33,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/33.jfif?alt=media&token=b58fd296-b6c0-4e75-8cd8-2e9216a86bec",
+    title: "The Indus Entrepreneurs (TiE) Bangalore",
+    category: "Business",
+    description:
+      "A chapter of TiE in Bangalore, focused on promoting entrepreneurship in the region.",
+    website: "https://bangalore.tie.org/",
+    twitter: "https://twitter.com/tieconblr",
+  },
+
+  {
+    id: 34,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/34.webp?alt=media&token=0e170e72-059d-4f8a-8a7c-8c6f485b55ea",
+    title: "National Entrepreneurship Network (NEN)",
+    category: "Business",
+    description:
+      "A network of entrepreneurship centers and organizations in India, supported by the Ministry of Micro, Small and Medium Enterprises.",
+    website: "https://www.nen.org/",
+    twitter: "https://twitter.com/NEN_India",
   },
   {
-    id: 28,
-    image: "",
-    title: "TechLadies Bangalore",
-    category: "Tech",
-    description: "A community for women in tech in Bangalore.",
-    website: "https://www.meetup.com/TechLadies-Bangalore/",
-    twitter: "https://twitter.com/TechLadiesBLR",
+    id: 35,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/35.png?alt=media&token=f18dc1a5-4c7d-42cc-89ef-717387f59035",
+    title: "Reddit /r/gaming",
+    category: "Gaming",
+    description:
+      "A subreddit dedicated to gaming, with a wide variety of content related to gaming, including news, discussions, and reviews.",
+    website: "https://www.reddit.com/r/gaming",
+    twitter: "https://twitter.com/r/gaming",
   },
   {
-    "id": 29,
-    "image": "",
-    "title": "Indian Business Association (IBA)",
-    "category": "Business",
-    "description": "A network of Indian business professionals and entrepreneurs in the United States.",
-    "website": "https://www.ibanet.org/",
-    "twitter": "https://twitter.com/IBAUSA"
-    },
-    
-    {
-    "id": 30,
-    "image": "",
-    "title": "Indus Entrepreneurs (TiE)",
-    "category": "Business",
-    "description": "A global non-profit network of entrepreneurs and professionals that promotes entrepreneurship.",
-    "website": "https://www.tie.org/",
-    "twitter": "https://twitter.com/tiecon"
-    },
-    
-    {
-    "id": 31,
-    "image": "",
-    "title": "The Indus Entrepreneurs (TiE) Delhi-NCR",
-    "category": "Business",
-    "description": "A chapter of TiE in Delhi-NCR, focused on promoting entrepreneurship in the region.",
-    "website": "https://delhincr.tie.org/",
-    "twitter": "https://twitter.com/tiecon_delhi"
-    },
-    
-    {
-    "id": 32,
-    "image": "",
-    "title": "The Indus Entrepreneurs (TiE) Mumbai",
-    "category": "Business",
-    "description": "A chapter of TiE in Mumbai, focused on promoting entrepreneurship in the region.",
-    "website": "https://mumbai.tie.org/",
-    "twitter": "https://twitter.com/tieconmumbai"
-    },
-    
-    {
-    "id": 33,
-    "image": "",
-    "title": "The Indus Entrepreneurs (TiE) Bangalore",
-    "category": "Business",
-    "description": "A chapter of TiE in Bangalore, focused on promoting entrepreneurship in the region.",
-    "website": "https://bangalore.tie.org/",
-    "twitter": "https://twitter.com/tieconblr"
-    },
-    
-    {
-    "id": 34,
-    "image": "",
-    "title": "National Entrepreneurship Network (NEN)",
-    "category": "Business",
-    "description": "A network of entrepreneurship centers and organizations in India, supported by the Ministry of Micro, Small and Medium Enterprises.",
-    "website": "https://www.nen.org/",
-    "twitter": "https://twitter.com/NEN_India"
-    },
+    id: 36,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/36.png?alt=media&token=3ab28612-9f25-4732-a19f-0f109ee6e0ef",
+    title: "Steam Community",
+    category: "Gaming",
+    description:
+      "A community platform for gamers, featuring user-generated content such as game guides, artwork, and discussions.",
+    website: "https://steamcommunity.com/",
+    twitter: "https://twitter.com/steam_games",
+  },
+
+  {
+    id: 37,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/37.webp?alt=media&token=7b7c1fc5-ef6f-4a25-9b1a-74233199b5f6",
+    title: "Discord",
+    category: "Gaming",
+    description:
+      "A communication platform featuring voice and text chat, as well as the ability to join or create servers for specific communities.",
+    website: "https://discord.com/",
+    twitter: "https://twitter.com/discord",
+  },
+
+  {
+    id: 38,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/38.jpg?alt=media&token=60d17ae7-7479-40e3-aff8-99351c398d7d",
+    title: "GameFAQs",
+    category: "Gaming",
+    description:
+      "A website that hosts a large database of game guides, walkthroughs, and other information, as well as a community forum for discussions.",
+    website: "https://gamefaqs.gamespot.com/",
+    twitter: "https://twitter.com/gamefaqs",
+  },
+
+  {
+    id: 39,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/39.jpg?alt=media&token=907a22a9-6ea6-4f3c-9d46-27cb35882ac7",
+    title: "Twitch",
+    category: "Gaming",
+    description:
+      "A live streaming platform primarily used by gamers to stream themselves playing games, with a chat feature for viewer interaction.",
+    website: "https://www.twitch.tv/",
+    twitter: "https://twitter.com/twitch",
+  },
+  {
+    id: 40,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/40.jfif?alt=media&token=1deab6a1-adfa-4bb0-a5d2-058669a3d740",
+    title: "GameSpot",
+    category: "Gaming",
+    description:
+      "A website that provides news, reviews, and other information about games, as well as a community forum for discussions.",
+    website: "https://www.gamespot.com/",
+    twitter: "https://twitter.com/gamespot",
+  },
+
+  {
+    id: 41,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/41.jpg?alt=media&token=a1f3f540-a2f9-4cf0-9b73-a1e884b33227",
+    title: "IGN",
+    category: "Gaming",
+    description:
+      "A website that provides news, reviews, and other information about games, as well as a community forum for discussions.",
+    website: "https://www.ign.com/",
+    twitter: "https://twitter.com/ign",
+  },
+
+  {
+    id: 42,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/42.jpg?alt=media&token=0b5d2ea8-5260-4555-9d2b-5a855b8d05c9",
+    title: "GOG",
+    category: "Gaming",
+    description:
+      "A digital distribution platform for games, with a community forum for discussions and user-generated content.",
+    website: "https://www.gog.com/",
+    twitter: "https://twitter.com/gogcom",
+  },
+
+  {
+    id: 43,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/43.jfif?alt=media&token=449b7b37-7606-45f6-a28e-294d29f859b1",
+    title: "Kotaku",
+    category: "Gaming",
+    description:
+      "A website that provides news and reviews about games, as well as a community forum for discussions.",
+    website: "https://kotaku.com/",
+    twitter: "https://twitter.com/kotaku",
+  },
+
+  {
+    id: 44,
+    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/44.jfif?alt=media&token=41f350de-8515-4e67-8f9a-ea42ef86dd09",
+    title: "Polygon",
+    category: "Gaming",
+    description:
+      "A website that provides news and reviews about games, as well as a community forum for discussions.",
+    website: "https://www.polygon.com/",
+    twitter: "https://twitter.com/polygon",
+  },
 ];

@@ -38,7 +38,7 @@ function Items({ menuItem }) {
                   style={{ maxHeight: "500px", minHeight: "480px" }}
                 >
                   <img
-                    class=" h-40 rounded w-full object-cover object-top mb-6"
+                    class=" h-40 rounded w-full object-fill object-top mb-6"
                     src={item.image}
                     alt="content"
                   />
