@@ -208,7 +208,8 @@ export default [
   },
   {
     id: 19,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/19.png?alt=media&token=b65838f0-0b86-45bf-b045-6290519a714e",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/19.png?alt=media&token=b65838f0-0b86-45bf-b045-6290519a714e",
     title: "Blockchain Magazine",
     category: "Tech",
     description:
@@ -218,7 +219,8 @@ export default [
   },
   {
     id: 20,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/20.jpg?alt=media&token=b49f59b5-8113-4228-b19d-dd11174c8c1e",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/20.jpg?alt=media&token=b49f59b5-8113-4228-b19d-dd11174c8c1e",
     title: "Foundership - Web3 Startup Launcher 🚀 ",
     category: "Business",
     description:
@@ -228,7 +230,8 @@ export default [
   },
   {
     id: 21,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/21.png?alt=media&token=dcbf2693-fa6a-471e-9971-af99934b440e",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/21.png?alt=media&token=dcbf2693-fa6a-471e-9971-af99934b440e",
     title: "OpenAI",
     category: "Tech",
     description:
@@ -238,7 +241,8 @@ export default [
   },
   {
     id: 22,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/22.png?alt=media&token=7c324499-062d-4589-aabd-60ea60754af6",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/22.png?alt=media&token=7c324499-062d-4589-aabd-60ea60754af6",
     title: "CodeNewbie",
     category: "Tech",
     description:
@@ -246,11 +250,11 @@ export default [
     website: "https://www.codenewbie.org/",
     twitter: "https://twitter.com/CodeNewbies",
   },
-  
 
   {
     id: 24,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/24.jfif?alt=media&token=7260f6a4-e457-45d4-bcb6-c3b2408495b1",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/24.jfif?alt=media&token=7260f6a4-e457-45d4-bcb6-c3b2408495b1",
     title: "Women Who Code Delhi",
     category: "Tech",
     description:
@@ -261,7 +265,8 @@ export default [
 
   {
     id: 25,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/25.jpeg?alt=media&token=1a9e5eb4-a6e2-4aa8-84fa-c2acfc441d5f",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/25.jpeg?alt=media&token=1a9e5eb4-a6e2-4aa8-84fa-c2acfc441d5f",
     title: "PyDelhi",
     category: "Tech",
     description: "A community for Python developers in Delhi.",
@@ -271,7 +276,8 @@ export default [
 
   {
     id: 26,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/26.jpg?alt=media&token=c0235061-f7f4-4bf3-a707-77068bff1a06",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/26.jpg?alt=media&token=c0235061-f7f4-4bf3-a707-77068bff1a06",
     title: "Google Developer Group (GDG) India",
     category: "Tech",
     description: "A community for Google developers in India.",
@@ -281,7 +287,8 @@ export default [
 
   {
     id: 29,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/29.png?alt=media&token=fa405d92-cc26-4115-9821-27d94182c5e1",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/29.png?alt=media&token=fa405d92-cc26-4115-9821-27d94182c5e1",
     title: "Indian Business Association (IBA)",
     category: "Business",
     description:
@@ -292,7 +299,8 @@ export default [
 
   {
     id: 30,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/30.jpg?alt=media&token=22591b03-93fe-44bb-a58b-56723b466bf9",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/30.jpg?alt=media&token=22591b03-93fe-44bb-a58b-56723b466bf9",
     title: "Indus Entrepreneurs (TiE)",
     category: "Business",
     description:
@@ -301,10 +309,10 @@ export default [
     twitter: "https://twitter.com/tiecon",
   },
 
-
   {
     id: 32,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/32.jpg?alt=media&token=7dd087ce-5676-484a-bb6c-0ea70b762a9a",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/32.jpg?alt=media&token=7dd087ce-5676-484a-bb6c-0ea70b762a9a",
     title: "The Indus Entrepreneurs (TiE) Mumbai",
     category: "Business",
     description:
@@ -315,7 +323,8 @@ export default [
 
   {
     id: 33,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/33.jfif?alt=media&token=b58fd296-b6c0-4e75-8cd8-2e9216a86bec",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/33.jfif?alt=media&token=b58fd296-b6c0-4e75-8cd8-2e9216a86bec",
     title: "The Indus Entrepreneurs (TiE) Bangalore",
     category: "Business",
     description:
@@ -326,7 +335,8 @@ export default [
 
   {
     id: 34,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/34.webp?alt=media&token=0e170e72-059d-4f8a-8a7c-8c6f485b55ea",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/34.webp?alt=media&token=0e170e72-059d-4f8a-8a7c-8c6f485b55ea",
     title: "National Entrepreneurship Network (NEN)",
     category: "Business",
     description:
@@ -336,7 +346,8 @@ export default [
   },
   {
     id: 35,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/35.png?alt=media&token=f18dc1a5-4c7d-42cc-89ef-717387f59035",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/35.png?alt=media&token=f18dc1a5-4c7d-42cc-89ef-717387f59035",
     title: "Reddit /r/gaming",
     category: "Gaming",
     description:
@@ -346,7 +357,8 @@ export default [
   },
   {
     id: 36,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/36.png?alt=media&token=3ab28612-9f25-4732-a19f-0f109ee6e0ef",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/36.png?alt=media&token=3ab28612-9f25-4732-a19f-0f109ee6e0ef",
     title: "Steam Community",
     category: "Gaming",
     description:
@@ -357,7 +369,8 @@ export default [
 
   {
     id: 37,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/37.webp?alt=media&token=7b7c1fc5-ef6f-4a25-9b1a-74233199b5f6",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/37.webp?alt=media&token=7b7c1fc5-ef6f-4a25-9b1a-74233199b5f6",
     title: "Discord",
     category: "Gaming",
     description:
@@ -368,7 +381,8 @@ export default [
 
   {
     id: 38,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/38.jpg?alt=media&token=60d17ae7-7479-40e3-aff8-99351c398d7d",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/38.jpg?alt=media&token=60d17ae7-7479-40e3-aff8-99351c398d7d",
     title: "GameFAQs",
     category: "Gaming",
     description:
@@ -379,7 +393,8 @@ export default [
 
   {
     id: 39,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/39.jpg?alt=media&token=907a22a9-6ea6-4f3c-9d46-27cb35882ac7",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/39.jpg?alt=media&token=907a22a9-6ea6-4f3c-9d46-27cb35882ac7",
     title: "Twitch",
     category: "Gaming",
     description:
@@ -389,7 +404,8 @@ export default [
   },
   {
     id: 40,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/40.jfif?alt=media&token=1deab6a1-adfa-4bb0-a5d2-058669a3d740",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/40.jfif?alt=media&token=1deab6a1-adfa-4bb0-a5d2-058669a3d740",
     title: "GameSpot",
     category: "Gaming",
     description:
@@ -400,7 +416,8 @@ export default [
 
   {
     id: 41,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/41.jpg?alt=media&token=a1f3f540-a2f9-4cf0-9b73-a1e884b33227",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/41.jpg?alt=media&token=a1f3f540-a2f9-4cf0-9b73-a1e884b33227",
     title: "IGN",
     category: "Gaming",
     description:
@@ -411,7 +428,8 @@ export default [
 
   {
     id: 42,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/42.jpg?alt=media&token=0b5d2ea8-5260-4555-9d2b-5a855b8d05c9",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/42.jpg?alt=media&token=0b5d2ea8-5260-4555-9d2b-5a855b8d05c9",
     title: "GOG",
     category: "Gaming",
     description:
@@ -422,7 +440,8 @@ export default [
 
   {
     id: 43,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/43.jfif?alt=media&token=449b7b37-7606-45f6-a28e-294d29f859b1",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/43.jfif?alt=media&token=449b7b37-7606-45f6-a28e-294d29f859b1",
     title: "Kotaku",
     category: "Gaming",
     description:
@@ -433,12 +452,247 @@ export default [
 
   {
     id: 44,
-    image: "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/44.jfif?alt=media&token=41f350de-8515-4e67-8f9a-ea42ef86dd09",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/44.jfif?alt=media&token=41f350de-8515-4e67-8f9a-ea42ef86dd09",
     title: "Polygon",
     category: "Gaming",
     description:
       "A website that provides news and reviews about games, as well as a community forum for discussions.",
     website: "https://www.polygon.com/",
     twitter: "https://twitter.com/polygon",
+  },
+  {
+    id: 45,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/45.jpg?alt=media&token=804035eb-0a8d-4773-ac4d-f8996ce4f035",
+    title: "American Marketing Association (AMA)",
+    category: "Marketing",
+    description:
+      "A professional organization for marketers with local chapters and events across the United States.",
+    website: "https://www.ama.org/",
+    twitter: "https://twitter.com/AMA_Marketing",
+  },
+  {
+    id: 46,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/46.jpg?alt=media&token=e6e2d1ee-1b63-4aba-be0d-3aa3efb8d83b",
+    title: "The Content Marketing Institute",
+    category: "Marketing",
+    description:
+      "A website and community focused on content marketing best practices and strategy.",
+    website: "https://contentmarketinginstitute.com/",
+    twitter: "https://twitter.com/CMIContent",
+  },
+
+  {
+    id: 47,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/47.jpeg?alt=media&token=48fc92d1-8ca6-411c-a9ef-3b025395d37e",
+    title: "GrowthHackers",
+    category: "Marketing",
+    description:
+      "A website and community focused on growth marketing and experimentation.",
+    website: "https://growthhackers.com/",
+    twitter: "https://twitter.com/GrowthHackers",
+  },
+
+  {
+    id: 48,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/48.png?alt=media&token=6a7bd501-804a-4ae6-b8ea-a415e03bd5fd",
+    title: "Inbound.org",
+    category: "Marketing",
+    description:
+      "A website and community focused on inbound marketing and growth-driven design.",
+    website: "https://inbound.org/",
+    twitter: "https://twitter.com/Inboundorg",
+  },
+  {
+    id: 49,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/49.webp?alt=media&token=49421e20-e56e-48c9-9064-e5cf7be5c84e",
+    title: "The HubSpot Marketing Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to share and learn about inbound marketing best practices.",
+    website: "https://community.hubspot.com/",
+    twitter: "https://twitter.com/HubSpot",
+  },
+
+  {
+    id: 50,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/50.jpg?alt=media&token=3255c344-7ef0-4f49-bc5b-6b65143b488c",
+    title: "The Marketing School Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to learn and share marketing strategies and tactics.",
+    website: "https://www.marketingschool.io/community/",
+    twitter: "https://twitter.com/NeilPatel",
+  },
+
+  {
+    id: 51,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/51.png?alt=media&token=bb1d92bb-f492-411b-9112-54cccbd4fc0c",
+    title: "The Digital Marketing Community",
+    category: "Marketing",
+    description:
+      "A community for digital marketers to share and learn about digital marketing strategies and tactics.",
+    website: "https://www.digitalmarketingcommunity.com/",
+    twitter: "https://twitter.com/digitalmktgcom",
+  },
+
+  {
+    id: 52,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/52.jpg?alt=media&token=529d3a8f-8e02-4fcd-a006-16a7d0328b84",
+    title: "The Marketing Over Coffee Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to share and learn about marketing strategies and tactics over a cup of coffee.",
+    website: "https://www.marketingovercoffee.com/",
+    twitter: "https://twitter.com/mktgovercoffee",
+  },
+
+  {
+    id: 53,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/53.png?alt=media&token=7a18558d-c32b-43da-acbc-bd8965252043",
+    title: "The Marketing Mix Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to share and learn about the different elements of the marketing mix.",
+    website: "https://www.marketingmixx.com/community/",
+    twitter: "https://twitter.com/marketingmixx",
+  },
+
+  {
+    id: 54,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/54.png?alt=media&token=78030f30-4c33-4e13-a01e-b274f2c523cc",
+    title: "The Marketing Scoop Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to share and learn about the latest marketing trends and news.",
+    website: "https://www.marketingscoop.com/community/",
+    twitter: "",
+  },
+  {
+    id: 55,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/55.png?alt=media&token=6fc5e34d-d0a1-43df-93ae-44db267744ca",
+    title: "The MarketingProfs Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to access marketing information, tools, and insights.",
+    website: "https://www.marketingprofs.com/community",
+    twitter: "https://twitter.com/marketingprofs",
+  },
+
+  {
+    id: 56,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/56.png?alt=media&token=9307b2dd-b340-411b-af21-4d82ada2e231",
+    title: "The Marketing Association NZ",
+    category: "Marketing",
+    description:
+      "A community for marketers in New Zealand to access marketing information, tools, and insights.",
+    website: "https://www.marketing.org.nz/",
+    twitter: "https://twitter.com/MarketingAssoc",
+  },
+  {
+    id: 57,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/57.webp?alt=media&token=5188eb97-25a2-4027-9700-ba4387e4dcfe",
+    title: "SEOmoz Community",
+    category: "Marketing",
+    description:
+      "A community for digital marketers to share and learn about SEO best practices.",
+    website: "https://moz.com/community",
+    twitter: "https://twitter.com/SEOMoz",
+  },
+
+  {
+    id: 58,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/58.png?alt=media&token=09ec90b4-3d57-4ff8-ba31-0bd38effd85b",
+    title: "Online Marketing Institute",
+    category: "Marketing",
+    description:
+      "A community for digital marketers to access online marketing courses and information.",
+    website: "https://www.onlinemarketinginstitute.org/community/",
+    twitter: "https://twitter.com/OMInstitute",
+  },
+
+  {
+    id: 59,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/59.png?alt=media&token=b6b70131-ca9e-4e78-967b-666edd6a79d7",
+    title: "Social Media Examiner Community",
+    category: "Marketing",
+    description:
+      "A community for social media marketers to share and learn about social media marketing best practices.",
+    website: "https://www.socialmediaexaminer.com/community/",
+    twitter: "https://twitter.com/smexaminer",
+  },
+
+  {
+    id: 60,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/60.jpg?alt=media&token=c4072daf-d9ad-4ea4-8069-199368799c14",
+    title: "The Marketing Meetup Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to connect and attend in-person marketing meetups and events.",
+    website: "https://www.meetup.com/topics/marketing/",
+    twitter: "https://twitter.com/meetup",
+  },
+
+  {
+    id: 61,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/61.png?alt=media&token=032126ee-2ec5-4616-922a-b2572bff4413",
+    title: "Search Engine Journal",
+    category: "Marketing",
+    description:
+      "A community for digital marketers to access daily SEO news, tips and insights.",
+    website: "https://www.searchenginejournal.com/",
+    twitter: "https://twitter.com/sejournal",
+  },
+
+  {
+    id: 62,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/62.png?alt=media&token=8d5d49bd-78c2-490c-be7d-4d4824d9332c",
+    title: "Marketing Dive",
+    category: "Marketing",
+    description:
+      "A community for marketers to access daily marketing news, analysis and research.",
+    website: "https://www.marketingdive.com/",
+    twitter: "https://twitter.com/MarketingDive",
+  },
+  {
+    id: 63,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/63.png?alt=media&token=6ad965a3-fa4b-497e-8890-1da2e52d7596",
+    title: "MarketingSherpa Community",
+    category: "Marketing",
+    description:
+      "A community for marketers to access marketing research, case studies, and best practices.",
+    website: "https://www.marketingsherpa.com/community",
+    twitter: "https://twitter.com/MarketingSherpa",
+  },
+
+  {
+    id: 64,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/commbuidl-3ccf5.appspot.com/o/64.webp?alt=media&token=eaeb1a78-6233-4399-a0ee-edaec70d2c8a",
+    title: "Marketing Tech Blog",
+    category: "Marketing",
+    description:
+      "A community for digital marketers to discover and learn about marketing technology.",
+    website: "https://www.martech.zone/",
+    twitter: "https://twitter.com/MartechZone",
   },
 ];
